@@ -9,6 +9,7 @@ public class Dropdowns {
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Work\\Calidad de Software\\Automation\\FilesDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://book.spicejet.com/");
 		
 		
